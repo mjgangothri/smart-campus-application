@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Campus Information System</title>
+    <meta
+      name="description"
+      content="A complete smart campus dashboard website for the Smart Campus Information System project."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="nav container">
+        <a class="brand" href="#top">Smart Campus</a>
+        <a class="button ghost" href="#modules">Explore Modules</a>
+      </nav>
+
+      <div class="container hero-grid" id="top">
+        <div>
+          <p class="eyebrow">Python Project • Dayananda Sagar College of Engineering</p>
+          <h1>Smart Campus Information System</h1>
+          <p class="lead">
+            A complete academic dashboard for managing student records, fee calculation,
+            file operations, directory scanning, and performance analytics.
+          </p>
+          <div class="cta-row">
+            <a class="button primary" href="main.py">Run the Python App</a>
+            <a class="button secondary" href="#modules">View Features</a>
+          </div>
+        </div>
+
+        <aside class="card spotlight">
+          <h2>Project Highlights</h2>
+          <ul>
+            <li>8 integrated laboratory modules</li>
+            <li>Interactive dashboard interface</li>
+            <li>Sample data and project directory scans</li>
+            <li>Ready for demo and presentation use</li>
+          </ul>
+        </aside>
+      </div>
+    </header>
+
+    <main class="container sections">
+      <section class="card">
+        <h2>Overview</h2>
+        <p>
+          This project brings together student registration, enrollment, fee handling,
+          file management, performance analysis, and directory scanning in one unified
+          system. It is designed as a student-friendly academic solution that can be
+          run locally with Python.
+        </p>
+      </section>
+
+      <section id="modules" class="card">
+        <div class="section-heading">
+          <h2>Laboratory Modules</h2>
+          <p>Core features included in the system.</p>
+        </div>
+
+        <div class="grid cards-grid">
+          <a class="mini-card" href="modules/student_registration.py" target="_blank" rel="noopener noreferrer">
+            <h3>Q1</h3>
+            <p>Student registration and grade evaluation</p>
+          </a>
+          <a class="mini-card" href="modules/course_enrollment.py" target="_blank" rel="noopener noreferrer">
+            <h3>Q2</h3>
+            <p>Course enrollment and credit validation</p>
+          </a>
+          <a class="mini-card" href="modules/student_records.py" target="_blank" rel="noopener noreferrer">
+            <h3>Q3</h3>
+            <p>Student record data management</p>
+          </a>
+          <a class="mini-card" href="modules/student_search_sort.py" target="_blank" rel="noopener noreferrer">
+            <h3>Q4</h3>
+            <p>Sorting and searching of student IDs</p>
+          </a>
+          <a class="mini-card" href="modules/fee_calculation.py" target="_blank" rel="noopener noreferrer">
+            <h3>Q5</h3>
+            <p>Student fee calculation and examples</p>
+          </a>
+          <a class="mini-card" href="modules/file_management.py" target="_blank" rel="noopener noreferrer">
+            <h3>Q6</h3>
+            <p>Academic file handling and reporting</p>
+          </a>
+          <a class="mini-card" href="modules/directory_scanning.py" target="_blank" rel="noopener noreferrer">
+            <h3>Q7</h3>
+            <p>Directory scanning with exception handling</p>
+          </a>
+          <a class="mini-card" href="modules/performance_analytics.py" target="_blank" rel="noopener noreferrer">
+            <h3>Q8</h3>
+            <p>Student performance analytics</p>
+          </a>
+        </div>
+      </section>
+
+      <section class="grid two-col">
+        <article class="card">
+          <h2>Quick Start</h2>
+          <ol>
+            <li>Install dependencies: <strong>pip install numpy pandas matplotlib</strong></li>
+            <li>Open the project folder in your terminal.</li>
+            <li>Run: <strong>python main.py</strong></li>
+          </ol>
+        </article>
+
+        <article class="card">
+          <h2>Why It Matters</h2>
+          <p>
+            This website provides a presentation-friendly overview of the academic system
+            while the Python dashboard offers the interactive experience for live demos.
+          </p>
+        </article>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <p>Smart Campus Information System © 2026</p>
+        <p>Built as a static HTML website for project presentation.</p>
+      </div>
+    </footer>
+  </body>
+</html>
